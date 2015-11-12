@@ -25,6 +25,8 @@
         <br>
     </form>
 
+    <a href="lucky.php" <button type="button">Feeling lucky?</button></a>
+
 
     </body>
 </html>
