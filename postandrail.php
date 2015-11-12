@@ -21,7 +21,7 @@ class Fence
             return (($numOfPosts * $this->postLength) + ($numOfRailings * $this->railingLength));
         }
         elseif (($numOfRailings > $numOfPosts) && ($numOfPosts > 0) && ($numOfRailings > 0)) {
-            $this->$numOfRailings = ($this->numOfPosts - 1);
+            $numOfRailings = ($numOfPosts - 1);
 
             return (($numOfPosts * $this->postLength) + ($numOfRailings * $this->railingLength));
         }
